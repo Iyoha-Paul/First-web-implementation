@@ -1,0 +1,498 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.FirstBackground {
+  color: white;
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  position: relative;
+  height: 900px;
+  width: auto;
+  margin-bottom: 70px;
+  background-repeat: no-repeat;
+}
+.Container {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.MainHeadText {
+  color: rgba(238, 237, 237, 0.76);
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 190px;
+  position: absolute;
+  top: 20px;
+}
+nav {
+  margin-top: 20px;
+  position: absolute;
+  right: 220px;
+  color: aqua;
+}
+nav a:link,
+nav a:visited {
+  color: rgba(238, 237, 237, 0.76);
+  padding: 10px;
+  font-size: 20px;
+
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(253, 4, 4);
+
+  font-size: 20px;
+
+  text-decoration: underline;
+}
+nav a:active {
+  color: rgb(0, 126, 243);
+
+  font-size: 20px;
+
+  text-decoration: none;
+}
+.hand {
+  position: absolute;
+  left: 200px;
+  bottom: 0;
+}
+
+.first-text {
+  position: relative;
+  left: 800px;
+  top: 180px;
+}
+.BigHeading {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.FreeTrialButton {
+  background-color: white;
+  border: none;
+  color: rgb(77, 72, 72);
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.FreeTrialButton:hover {
+  background-color: rgb(61, 61, 61);
+  border: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.FreeTrialButton:active {
+  background-color: white;
+  border: none;
+  color: rgb(77, 72, 72);
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.SecondBackground {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.WeBri {
+  color: rgb(131, 126, 126);
+}
+.AmazingFeatures {
+  text-transform: capitalize;
+  font-size: 50px;
+  color: rgb(131, 126, 126);
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.ListItem {
+  list-style: none;
+  line-height: 1.5;
+}
+.BigFontHeading {
+  font-size: 40px;
+
+  margin-bottom: 20px;
+}
+.Tables {
+  color: rgb(131, 126, 126);
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.PricingPlansSection {
+  background-color: rgb(241, 241, 241);
+  color: rgb(131, 126, 126);
+  font-size: 40px;
+  padding: 80px 40px;
+}
+.PPlans {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.DifferentPlans {
+  margin: 80px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 100px;
+}
+.Plan {
+  flex-basis: 300px;
+  list-style: none;
+  line-height: 3;
+  background-color: rgb(221, 221, 221);
+}
+h4 {
+  font-weight: lighter;
+  background-color: rgb(201, 201, 201);
+  padding: 20px 120px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  color: rgb(66, 66, 66);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.BigNumber {
+  background-color: rgb(221, 221, 221);
+
+  height: 90px;
+  width: auto;
+  font-size: 20px;
+  color: rgb(32, 32, 32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BigNumber div:first-child {
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-size: 20px;
+}
+.BigNumber div:nth-child(2) {
+  color: rgb(44, 44, 44);
+
+  font-style: normal;
+  font-size: 50px;
+}
+.BigNumber div:nth-child(3) {
+  align-self: flex-end;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.BigNumber div:nth-child(4) {
+  align-self: flex-end;
+  font-style: normal;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.WhiteBG {
+  background-color: #fff;
+}
+
+.Last {
+  padding-bottom: 30px;
+}
+.SignUpButton {
+  border-radius: 30px;
+  border: 2px solid rgb(0, 253, 84);
+  background-color: #fff;
+  padding: 10px 20px;
+  color: rgb(0, 253, 84);
+  font-size: 15px;
+  cursor: pointer;
+}
+.SignUpButton:hover {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 253, 84);
+  background-color: rgb(0, 253, 84);
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.SignUpButton:active {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid rgb(253, 0, 0);
+  background-color: rgb(253, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.btnsuccess {
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(0, 253, 84);
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  cursor: pointer;
+}
+.btnsuccess:hover {
+  margin-top: 20px;
+
+  background-color: rgb(0, 141, 47);
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  cursor: pointer;
+}
+.btnsuccess:active {
+  margin-top: 20px;
+
+  background-color: rgb(253, 0, 0);
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  cursor: pointer;
+}
+.Green {
+  border-radius: 30px;
+  border: 2px solid rgb(0, 253, 84);
+  background-color: rgb(0, 253, 84);
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  cursor: pointer;
+}
+.Green:hover {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 253, 84);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 253, 84);
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.Green:active {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid rgb(253, 0, 0);
+  background-color: rgb(253, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.BgGreen {
+  background-color: rgb(0, 253, 84);
+}
+.whiteBg {
+  background-color: #fff;
+}
+p {
+  line-height: 1.5;
+}
+.CircleHeadSection {
+  display: grid;
+  gap: 50px;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.CircleHead {
+  border-radius: 50%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.CircleHeadSection header {
+  grid-column: 1/-1;
+}
+h5 {
+  font-size: 40px;
+
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+h6 {
+  margin-bottom: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(190, 190, 190);
+  letter-spacing: 2px;
+}
+.Fancy {
+  font-style: italic;
+  font-family: cursive;
+}
+.Grey {
+  background-color: rgb(126, 126, 126);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 130px;
+}
+.White {
+  color: #fff;
+}
+.Sev {
+  font-size: 80px;
+}
+.BigHeading2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.Section3 {
+  color: white;
+  background-image: url(img/banner.jpg);
+  background-position: 0 -200px;
+  padding: 100px 0px;
+  width: 100%;
+}
+
+.Section4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: start;
+  column-gap: 60px;
+}
+.Picture2 {
+  justify-self: start;
+  align-self: stretch;
+}
+.ContactUs {
+  margin-top: 80px;
+  color: rgb(190, 190, 190);
+  justify-self: start;
+  text-align: start;
+  width: 90%;
+}
+h5 {
+  font-size: 30px;
+  color: rgb(161, 161, 161);
+  font-weight: lighter;
+}
+label {
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: rgb(77, 77, 77);
+}
+.Form {
+  margin-top: 40px;
+}
+input {
+  width: 100%;
+  color: rgb(133, 133, 133);
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: rgba(141, 141, 141, 0.637);
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 100%;
+  padding: 5px 10px;
+  height: auto;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 70px 100px 100px;
+  padding: 90px 80px;
+  background-color: rgb(235, 235, 235);
+  column-gap: 50px;
+}
+footer p {
+  color: rgb(131, 126, 126);
+  font-size: 18px;
+}
+.FooterImg {
+  width: 60%;
+  align-self: start;
+}
+.Send {
+  grid-column: 1/2;
+}
+.Icon {
+  padding: 8px;
+  width: 20px;
+  height: 20px;
+  fill: rgb(58, 58, 58);
+}
+.Icon:first-child {
+  padding-left: 0px;
+}
+.icons {
+  grid-column: 1/2;
+}
+
+footer a:link,
+footer a:visited {
+  color: rgb(131, 126, 126);
+  text-decoration: none;
+  font-size: 18px;
+}
+footer a:hover {
+  color: rgb(253, 4, 4);
+  fill: rgb(253, 4, 4);
+  stroke: rgb(253, 4, 4);
+}
+
+footer a:active {
+  color: rgb(0, 126, 243);
+  fill: rgb(0, 126, 243);
+  stroke: rgb(0, 126, 243);
+
+  text-decoration: underline;
+}
+
+.Navigation {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+}
+
+h3 {
+  font-size: 30px;
+  color: rgb(131, 126, 126);
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+.FooterNav {
+  margin-bottom: 20px;
+}
+.SecRow {
+  grid-column: 3/4;
+  grid-row: 1/-1;
+}
+.ThirdRow {
+  grid-column: 4/5;
+  grid-row: 1/-1;
+}
+.FooterImg-2 {
+  width: 80%;
+  height: 90px;
+}
+.Footnote {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  background-color: rgb(235, 235, 235);
+  color: rgb(131, 126, 126);
+  font-size: 10px;
+}
+
